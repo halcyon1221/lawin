@@ -1,0 +1,12 @@
+name,r,g,b
+Road,128,128,0
+Misc,0,0,0
+Building,128,128,128
+Tree,64,0,0
+Car,128,0,0
+Footpath,0,0,128
+Motorcycle,0,128,0
+Pole,0,128,128
+Person,64,128,0
+Trash,192,0,0
+Crosswalk,128,0,128

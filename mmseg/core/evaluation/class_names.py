@@ -10,6 +10,11 @@ def cityscapes_classes():
         'bicycle'
     ]
 
+def bangkokscapes_classes():
+    """Bangkokscapes class names for external use."""
+    return ['Road','Misc','Building','Tree','Car','Footpath','Motorcycle','Pole',
+            'Person','Trash','Crosswalk']
+
 
 def ade_classes():
     """ADE20K class names for external use."""
@@ -113,6 +118,7 @@ def voc_palette():
 
 dataset_aliases = {
     'cityscapes': ['cityscapes'],
+    'bangkokscapes': ['bangkokscapes'],
     'ade': ['ade', 'ade20k'],
     'voc': ['voc', 'pascal_voc', 'voc12', 'voc12aug']
 }
