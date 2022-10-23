@@ -140,7 +140,7 @@ log_config = dict(
     interval=10, hooks=[dict(type='TextLoggerHook', by_epoch=False)])
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-load_from = 'checkpoints/ocrnet_hr48_512x1024_160k_cityscapes_20200602_191037-dfbf1b0c.pth'
+load_from = 'pretrained/mit_b2.pth'
 resume_from = None
 workflow = [('train', 1)]
 cudnn_benchmark = True
